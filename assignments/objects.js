@@ -88,8 +88,13 @@ console.log(interns.find(isAnt).gender);
 console.log(interns[1].speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-// console.log(Object.values(interns[4]));
-console.log(interns[4].multiplyNums(3,4));
+let antonietta = interns.find(obj => obj.name === 'Antonietta');
+
+// let antonietta = interns.find(function(obj) {
+//   return obj.name === 'Antonietta';
+// });
+
+console.log(antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
