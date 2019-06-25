@@ -111,13 +111,13 @@ const parent = {
   "talk": function() {
     return "My name is " + this.name;
   },
-  "child": {
+  child: {
     "name": "George",
     "age": "50",
     "talk": function() {
       return "My name is " + this.name;
     },
-    "grandchild": {
+    grandchild: {
       "name": "Sam",
       "age": "30",
       "talk": function() {
